@@ -13,8 +13,9 @@
 .works-container {
 	width: 100%;
 }
+/* card1  */
 
-.works-card {
+.works-card1 {
 	background-color: var(--card-blue-shade);
 	color: var(--nav-grey);
 	border-radius: 5px;
@@ -32,11 +33,81 @@
 	transition: all 0.3s ease;
 }
 
-.works-card:hover {
+.works-card1:hover {
 	transform: translateY(-7px);
+	transition: 5s;
+	background-image: url("../images/travelworldimage.png");
+	background-size: cover;
+	background-position: center;
 }
 
-.works-card:hover .work-title {
+.works-card1:hover .work-title {
+	color: var(--nav-blue);
+}
+
+/* card2  */
+
+.works-card2 {
+	background-color: var(--card-blue-shade);
+	color: var(--nav-grey);
+	border-radius: 5px;
+	position: relative;
+	padding: 1rem 2rem;
+	width: 300px;
+	max-width: 300px;
+	margin: 0 auto;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.works-card2:hover {
+	transform: translateY(-7px);
+	transition: 5s;
+	background-image: url("../images/causalimage.png");
+	background-size: cover;
+	background-position: center;
+}
+
+.works-card2:hover .work-title {
+	color: var(--nav-blue);
+}
+
+/* card3  */
+
+.works-card3 {
+	background-color: var(--card-blue-shade);
+	color: var(--nav-grey);
+	border-radius: 5px;
+	position: relative;
+	padding: 1rem 2rem;
+	width: 300px;
+	max-width: 300px;
+	margin: 0 auto;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.works-card3:hover {
+	/* transform: translateY(-7px) !important; */
+	transition: 5s;
+	background-image: url("../images/mangos3dimage.png");
+	background-size: cover;
+	background-position: center;
+	background-color: black;
+	filter: opacity(0.5);
+}
+
+.works-card3:hover .work-title {
 	color: var(--nav-blue);
 }
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import "../styles/About.css"
 import { motion } from "framer-motion";
-import ProfileImg from '../images/profile.jpg'
+import ProfileImg from '../images/IMG_0477 (3).jpg'
 
 const About = () => {  
   
@@ -16,14 +16,14 @@ const About = () => {
           <div  className="about" id='about'>
               <div className="container">
                   <motion.div initial={{x: '-100%', opacity: 0}} whileInView={horizontal} viewport={{ once: true }} className="heading">
-                    <p className="heading-sub-text">Who I am</p>
-                    <p className='heading-text'>About Me</p>
+                    <p className="heading-sub-text">Conoce</p>
+                    <p className='heading-text'>Acerca de mi</p>
                   </motion.div>
                   <div className="split-about">
                     <motion.div initial={{x: '-100%', opacity: 0}} whileInView={horizontal} className="about-content">
-                        <p>Hello! My name is Peace and I enjoy creating things that live on the internet. My interest in web development started back in 2018 when I decided to try out for my first school project — turns out putting together a simple website taught me a lot about HTML & CSS! </p>
+                        <p>Hola Mi nombre es Deroni y disfruto creando cosas que viven en Internet. Mi interés en el desarrollo web comenzó en 2020, cuando decidí ingresar en una academia de programacion web. </p>
                         <br />
-                        <p> I’ve had the privilege of working with some experienced professionals which has enhanced my skills and rate of learning. My main focus these days is building accessible, inclusive products and digital experiences, as well as creating designs and illustrations. With my experience I have what it takes to solve real world problems</p>
+                        <p> He tenido el privilegio de trabajar con algunos profesionales experimentados, lo que ha mejorado mis habilidades y mi ritmo de aprendizaje. Mi enfoque principal esta en lograr ser un programador dinamico, y versatil, con un equipo de trabajo que logre potenciar nuestras habilidades.</p>
                     </motion.div>
                     <motion.div initial={{x: '50', opacity: 0}} whileInView={horizontal}  className='about-img'>
                         <img src={ProfileImg} alt="Profile" />

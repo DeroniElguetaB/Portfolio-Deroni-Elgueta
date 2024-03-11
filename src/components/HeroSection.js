@@ -93,10 +93,10 @@ const HeroSection = ({ nav, handleNav }) => {
 				whileInView='visible'
 				className='hero-content'>
 				<p className='hero-intro'>
-					<span>Peace</span> <span>Jinadu-Paul.</span>
+					<span>Hola, soy</span> <span>Deroni Elgueta.</span>
 				</p>
 				<p className='hero-desc'>
-					I'm a <span className='hero-desc-sub'>Web Developer.</span>
+					<span className='hero-desc-sub'>Desarrollador web.</span>
 				</p>
 			</motion.div>
 			<motion.span
@@ -104,10 +104,10 @@ const HeroSection = ({ nav, handleNav }) => {
 				initial='hidden'
 				whileInView='visible'>
 				<a
-					href='Peace Jinadu-Paul CV.pdf'
-					download='Peace Jinadu-Paul CV'
+					href='CV - Deroni Elgueta.pdf'
+					download='CV - Deroni Elgueta'
 					className='hero-contact'>
-					Download CV <BiDownload className='cv-icon' />
+					Descargar CV <BiDownload className='cv-icon' />
 				</a>
 			</motion.span>
 		</div>

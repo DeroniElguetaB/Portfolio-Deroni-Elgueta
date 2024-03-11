@@ -23,15 +23,122 @@ const Works = () => {
 						whileInView={fade}
 						viewport={{ once: true }}
 						className='heading'>
-						<p className='heading-sub-text'>I build real value</p>
-						<p className='heading-text'>Works</p>
+						<p className='heading-sub-text'>Navega</p>
+						<p className='heading-text'>Mis trabajos</p>
 					</motion.div>
 
 					<motion.div
 						className='works-box'
 						initial={{ opacity: 0 }}
 						whileInView={fade}>
-						{WorkData.map((w, index) => {
+							<div>
+								<Link to="//booking-frontend-black.vercel.app/home" target='_blank' className='work-link-group'>
+									<div className='works-card1'>
+										<div className='works-container'>
+											<div className='top-work'>
+												<FiFolder className='work-folder' />
+												<div className='right'>
+													<Link
+														className='work-git'
+														to="//github.com/DeroniElguetaB/Booking-TV"
+														target='_blank'>
+														<FiGithub />
+													</Link>
+													<Link
+														className='work-link'
+														to="//booking-frontend-black.vercel.app/home"
+														target='_blank'>
+														<IoOpenOutline />
+													</Link>
+												</div>
+											</div>
+											<div className='mid-work'>
+												<p className='work-title'>Travel World</p>
+												<p className='work-desc'>Sitio web de una agencia de viajes internacional</p>
+											</div>
+											<div className='bottom-work'>
+												<small>React.js</small>
+												<small>Css</small>
+												<small>APIs</small>
+												<small>Mongodb</small>
+												<small>Json Web Token</small>
+												<small>Express</small>
+											</div>
+										</div>
+									</div>
+								</Link>
+							</div>
+							<div>
+								<Link to="//casualmendoza.com.ar/" target='_blank' className='work-link-group'>
+									<div className='works-card2'>
+										<div className='works-container'>
+											<div className='top-work'>
+												<FiFolder className='work-folder' />
+												<div className='right'>
+													<Link
+														className='work-git'
+														to="//casualmendoza.com.ar/"
+														target='_blank'>
+														<FiGithub />
+													</Link>
+													<Link
+														className='work-link'
+														to="///casualmendoza.com.ar/"
+														target='_blank'>
+														<IoOpenOutline />
+													</Link>
+												</div>
+											</div>
+											<div className='mid-work'>
+												<p className='work-title'>Casual Mendoza</p>
+												<p className='work-desc'>Desarrollo de E-commerce de venta de zapatillas online</p>
+											</div>
+											<div className='bottom-work'>
+												<small>Html</small>
+												<small>Css</small>
+												<small>Tiendanube</small>
+											</div>
+										</div>
+									</div>
+								</Link>
+							</div>
+							<div>
+								<Link to="//deronielguetab.github.io/Proyecto-Mangos3D/index.html" target='_blank' className='work-link-group'>
+									<div className='works-card3'>
+										<div className='works-container'>
+											<div className='top-work'>
+												<FiFolder className='work-folder' />
+												<div className='right'>
+													<Link
+														className='work-git'
+														to="//github.com/DeroniElguetaB/Proyecto-Mangos3D"
+														target='_blank'>
+														<FiGithub />
+													</Link>
+													<Link
+														className='work-link'
+														to="//deronielguetab.github.io/Proyecto-Mangos3D/index.html"
+														target='_blank'>
+														<IoOpenOutline />
+													</Link>
+												</div>
+											</div>
+											<div className='mid-work'>
+												<p className='work-title'>Mangos 3D</p>
+												<p className='work-desc'>Landing Page de un servicio de Impresiones profesionales en 3D</p>
+											</div>
+											<div className='bottom-work'>
+												<small>Html</small>
+												<small>Css</small>
+												<small>Sass</small>
+												<small>Scss</small>
+												<small>Bootstrap</small>
+											</div>
+										</div>
+									</div>
+								</Link>
+							</div>
+						{/* {WorkData.map((w, index) => {
 							return (
 								<div key={index}>
 									<Link to={w.site} target='_blank' className='work-link-group'>
@@ -68,7 +175,7 @@ const Works = () => {
 									</Link>
 								</div>
 							);
-						})}
+						})} */}
 					</motion.div>
 				</div>
 			</div>

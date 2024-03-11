@@ -4,7 +4,7 @@ import { FaHome, FaLaptop } from "react-icons/fa";
 import { BiBookContent, BiServer, BiEnvelope } from "react-icons/bi";
 import { FiUser } from "react-icons/fi";
 import { Link } from "react-scroll";
-import ProfileImg from "../../images/profile.jpg";
+import ProfileImg from "../../images/WhatsApp Image 2024-03-11 at 18.37.331.jpeg";
 import NavLinks from "./NavLinks";
 import { motion } from "framer-motion";
 import { AnimatePresence } from "framer-motion";
@@ -56,7 +56,7 @@ const Navbar = ({ nav, handleNav }) => {
 							onClick={handleNav}
 							to='home'
 							className='profile-name'>
-							Peace Jinadu-Paul
+							Deroni Elgueta
 						</Link>
 						<NavLinks handleNav={handleNav} />
 					</div>
@@ -84,7 +84,7 @@ const Navbar = ({ nav, handleNav }) => {
 							className='mid-links'>
 							<FiUser className='mid-icon' />
 							<li className='mid-link' onClick={handleNav}>
-								About
+								Sobre mi
 							</li>
 						</Link>
 						<Link
@@ -97,7 +97,7 @@ const Navbar = ({ nav, handleNav }) => {
 							className='mid-links'>
 							<FaLaptop className='mid-icon' />
 							<li className='mid-link' onClick={handleNav}>
-								Skills
+								Habilidades
 							</li>
 						</Link>
 						<Link
@@ -110,7 +110,7 @@ const Navbar = ({ nav, handleNav }) => {
 							className='mid-links'>
 							<BiServer className='mid-icon' />
 							<li className='mid-link' onClick={handleNav}>
-								Services
+								Servicios
 							</li>
 						</Link>
 						<Link
@@ -123,7 +123,7 @@ const Navbar = ({ nav, handleNav }) => {
 							className='mid-links'>
 							<BiBookContent className='mid-icon' />
 							<li className='mid-link' onClick={handleNav}>
-								Works
+								Proyectos
 							</li>
 						</Link>
 						<Link
@@ -136,13 +136,13 @@ const Navbar = ({ nav, handleNav }) => {
 							className='mid-links'>
 							<BiEnvelope className='mid-icon' />
 							<li className='mid-link' onClick={handleNav}>
-								Contact
+								Contacto
 							</li>
 						</Link>
 					</ul>
 					<div className='copy'>
 						<small className='copyright'>
-							© Copyright ©2022 <br /> All rights reserved |
+							© Copyright ©2024 <br /> All rights reserved |
 						</small>
 					</div>
 				</motion.div>

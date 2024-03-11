@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 /* Hero Section */
 .hero-section {
-	background-image: url("../images/hero-bg-1.jpg");
+	background-image: url("../images/image2copia.JPG");
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
@@ -21,7 +21,7 @@
 	height: 100vh;
 	width: 100%;
 	background-color: black;
-	filter: opacity(0.8);
+	filter: opacity(0.6);
 }
 
 .hero-content {
@@ -31,7 +31,7 @@
 }
 
 .hero-intro {
-	font-size: 4rem;
+	font-size: 3rem;
 	margin-bottom: 0.5rem;
 	color: var(--nav-blue);
 	display: flex;
@@ -48,7 +48,7 @@
 .hero-contact {
 	text-decoration: none;
 	color: var(--nav-blue);
-  font-size: 80%;
+	font-size: 80%;
 	font-weight: 500;
 	letter-spacing: 3px;
 	padding: 1rem 2rem;
