@@ -35,7 +35,7 @@ const Contact = () => {
                 <div className="contact-box">
                     <motion.div className="left-box" initial={{opacity: 0, y: '-50px'}} whileInView={verticalLeft}>
                         <div className="contact-heading">
-                            <p>Si tienes alguna solicitud o pregunta, no dudes en consultarme a traves del formulario o mis redes sociales. Me pondre en contacto en la brevedad contigo.</p>
+                            <p>Si tienes alguna solicitud o pregunta, no dudes en consultarme a traves del formulario o mis redes sociales. Me pondre en contacto a la brevedad contigo.</p>
                         </div>
                         <div className="contact-hello">
                             <p>Mis redes sociales</p>
@@ -46,11 +46,9 @@ const Contact = () => {
                     </motion.div>
                     <motion.div className="right-box" initial={{opacity: 0, y: '50px'}} whileInView={verticalLeft}>
                     
-                        <form
-                            name="contact-form"
+                        <form 
+                            action="https://formsubmit.co/befd8a44f1285643d6e3ff57cfac7069" 
                             method="POST"
-                            data-netlify="true"
-                            action="POST"
                         >
                             <input type="hidden" name="form-name" value="contact-form" />
                             <div className="form-top">
@@ -95,6 +93,8 @@ const Contact = () => {
                                 ENVIAR
                             </button>
                             </div>
+                            <input type="hidden" name="_next" value="http://localhost:3000/"></input>
+                            <input type="hidden" name="_captcha" value="false"></input>
                         </form>
                     </motion.div>
                 </div>
