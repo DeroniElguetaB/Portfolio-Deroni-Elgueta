@@ -4,7 +4,6 @@ import "../styles/Contact.css";
 import { motion } from "framer-motion";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import { CgMail } from "react-icons/cg";
 import { MdOutlineMail } from "react-icons/md";
 
 const Contact = () => {
