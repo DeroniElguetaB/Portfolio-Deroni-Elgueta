@@ -93,7 +93,7 @@ const Contact = () => {
                                 ENVIAR
                             </button>
                             </div>
-                            <input type="hidden" name="_next" value="http://localhost:3000/"></input>
+                            <input type="hidden" name="_next" value="https://portfolio-deroni-elgueta.vercel.app/"></input>
                             <input type="hidden" name="_captcha" value="false"></input>
                         </form>
                     </motion.div>
