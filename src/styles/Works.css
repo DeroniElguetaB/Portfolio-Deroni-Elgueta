@@ -34,9 +34,9 @@
 }
 
 .works-card1:hover {
-	transform: translateY(-7px);
+	/* transform: translateY(-7px); */
 	transition: 5s;
-	background-image: url("../images/travelworldimage.png");
+	background-image: url("../images/copia1.png");
 	background-size: cover;
 	background-position: center;
 }
@@ -66,9 +66,9 @@
 }
 
 .works-card2:hover {
-	transform: translateY(-7px);
+	/* transform: translateY(-7px); */
 	transition: 5s;
-	background-image: url("../images/causalimage.png");
+	background-image: url("../images/copia2.png");
 	background-size: cover;
 	background-position: center;
 }
@@ -100,11 +100,9 @@
 .works-card3:hover {
 	/* transform: translateY(-7px) !important; */
 	transition: 5s;
-	background-image: url("../images/mangos3dimage.png");
+	background-image: url("../images/copia3.png");
 	background-size: cover;
 	background-position: center;
-	background-color: black;
-	filter: opacity(0.5);
 }
 
 .works-card3:hover .work-title {

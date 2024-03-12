@@ -20,6 +20,11 @@
     text-align: center;
 }
 
+.skill-card:hover{
+    box-shadow: inset 6px 6px 30px rgb(75, 75, 75);
+    border: none;
+}
+
 .skill-icon {
     font-size: 2rem;
     margin-bottom: .5rem;

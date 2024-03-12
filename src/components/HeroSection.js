@@ -107,7 +107,7 @@ const HeroSection = ({ nav, handleNav }) => {
 					href='CV - Deroni Elgueta.pdf'
 					download='CV - Deroni Elgueta'
 					className='hero-contact'>
-					Descargar CV <BiDownload className='cv-icon' />
+					DESCARGAR CV <BiDownload className='cv-icon' />
 				</a>
 			</motion.span>
 		</div>

@@ -24,7 +24,7 @@ const Works = () => {
 						viewport={{ once: true }}
 						className='heading'>
 						<p className='heading-sub-text'>Navega</p>
-						<p className='heading-text'>Mis trabajos</p>
+						<p className='heading-text'>Mis proyectos</p>
 					</motion.div>
 
 					<motion.div
