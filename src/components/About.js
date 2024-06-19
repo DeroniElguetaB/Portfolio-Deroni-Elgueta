@@ -21,9 +21,9 @@ const About = () => {
                   </motion.div>
                   <div className="split-about">
                     <motion.div initial={{x: '-100%', opacity: 0}} whileInView={horizontal} className="about-content">
-                        <p>Hola Mi nombre es Deroni y disfruto creando cosas que viven en Internet. Mi interés en el desarrollo web comenzó en 2020, cuando decidí ingresar en una academia de programacion web. </p>
+                        <p>Hola mi nombre es Deroni, soy programador, desarrollador de software y disfruto del constante crecimiento del desarrollo web. </p>
                         <br />
-                        <p> He tenido el privilegio de trabajar con algunos profesionales experimentados, lo que ha mejorado mis habilidades y mi ritmo de aprendizaje. Mi enfoque principal esta en lograr ser un programador dinamico, y versatil, con un equipo de trabajo que logre potenciar nuestras habilidades.</p>
+                        <p> Soy un profesional con experiencia en diseño, desarrollo y mantenimiento de software web, con conocimiento y experiencia en varias plataformas, lenguajes de programación y base de datos. Buenas habilidades de colaboración dentro de un equipo productivo y adaptación a los cambios, siempre con predisposición total al aprendizaje de nuevas tecnologías. Mi predisposición al crecimiento constante es total.</p>
                     </motion.div>
                     <motion.div initial={{x: '50', opacity: 0}} whileInView={horizontal}  className='about-img'>
                         <img src={ProfileImg} alt="Profile" />

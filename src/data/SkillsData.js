@@ -17,7 +17,10 @@ import { SiExpress } from "react-icons/si";
 import { SiJsonwebtokens } from "react-icons/si";
 import { SiNodemon } from "react-icons/si";
 import { SiReactrouter } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
 import { VscJson } from "react-icons/vsc";
+import { FaPhp } from "react-icons/fa";
+
 import {
 	SiAdobephotoshop,
 	SiTailwindcss,
@@ -47,10 +50,10 @@ export const SkillsData = [
 		name: "Javascript",
 		icon: <DiJavascript1 />,
 	},
-	// {
-	// 	name: "TypeScript",
-	// 	icon: <SiTypescript />,
-	// },
+	{
+		name: "TypeScript",
+		icon: <SiTypescript />,
+	},
 	{
 		name: "React Js",
 		icon: <FaReact />,
@@ -75,10 +78,10 @@ export const SkillsData = [
 		name: "Bootstrap",
 		icon: <FaBootstrap />,
 	},
-	// {
-	// 	name: "Tailwind",
-	// 	icon: <SiTailwindcss />,
-	// },
+	{
+		name: "Tailwind",
+		icon: <SiTailwindcss />,
+	},
 	// {
 	// 	name: "Styled Components",
 	// 	icon: <SiStyledcomponents />,
@@ -138,5 +141,13 @@ export const SkillsData = [
 	{
 		name: "Json Web Token",
 		icon: <SiJsonwebtokens />,
+	},
+	{
+		name: "MySQL",
+		icon: <SiMysql />,
+	},
+	{
+		name: "PHP",
+		icon: <FaPhp />,
 	}
 ];

@@ -30,7 +30,7 @@ const Services = () => {
                     <div className="services-card">
                         <FaServer className='services-icon' />
                         <p className='services-title'>Desarrollo Backend</p>
-                        <p className='services-desc'>Trabajo con base de datos, API'S y servidores para poder lograr el correcto funcionamiento de las paginas web.</p>
+                        <p className='services-desc'>Estructurado de base de datos, API'S, y logica para poder lograr el correcto funcionamiento de los servidores.</p>
                     </div>
                 </motion.div>
               </div>
