@@ -73,7 +73,7 @@ const Works = () => {
 									<div className='works-card2'>
 										<div className='works-container'>
 											<div className='top-work'>
-												<FiFolder className='work-folder' />
+												<FiFolder className='work-folder'/>
 												<div className='right'>
 													<Link
 														className='work-git'
@@ -133,6 +133,42 @@ const Works = () => {
 												<small>Sass</small>
 												<small>Scss</small>
 												<small>Bootstrap</small>
+											</div>
+										</div>
+									</div>
+								</Link>
+							</div>
+							<div>
+								<Link to="//clinicadyc.onrender.com/sign-in" target='_blank' className='work-link-group'>
+									<div className='works-card4'>
+										<div className='works-container'>
+											<div className='top-work'>
+												<FiFolder className='work-folder' />
+												<div className='right'>
+													<Link
+														className='work-git'
+														to="//clinicadyc.onrender.com/sign-in"
+														target='_blank'>
+														<FiGithub />
+													</Link>
+													<Link
+														className='work-link'
+														to="//deronielguetab.github.io/Proyecto-Mangos3D/index.html"
+														target='_blank'>
+														<IoOpenOutline />
+													</Link>
+												</div>
+											</div>
+											<div className='mid-work'>
+												<p className='work-title'>DyC Coloproctologia</p>
+												<p className='work-desc'>Software Clinico destinado a uso medico, creacion de pacientes e historial médico.</p>
+											</div>
+											<div className='bottom-work'>
+												<small>MERN</small>
+												<small>React Js</small>
+												<small>Mongo DB</small>
+												<small>Tailwind</small>
+												<small>Vite</small>
 											</div>
 										</div>
 									</div>
