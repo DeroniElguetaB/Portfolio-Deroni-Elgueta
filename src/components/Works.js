@@ -139,7 +139,7 @@ const Works = () => {
 								</Link>
 							</div>
 							<div>
-								<Link to="//https://clinicadyc.vercel.app/sign-in" target='_blank' className='work-link-group'>
+								<Link to="//clinicadyc.vercel.app/sign-in" target='_blank' className='work-link-group'>
 									<div className='works-card4'>
 										<div className='works-container'>
 											<div className='top-work'>
@@ -147,13 +147,13 @@ const Works = () => {
 												<div className='right'>
 													<Link
 														className='work-git'
-														to="//https://clinicadyc.vercel.app/sign-in"
+														to="//clinicadyc.vercel.app/sign-in"
 														target='_blank'>
 														<FiGithub />
 													</Link>
 													<Link
 														className='work-link'
-														to="//https://clinicadyc.vercel.app/sign-in"
+														to="//clinicadyc.vercel.app/sign-in"
 														target='_blank'>
 														<IoOpenOutline />
 													</Link>
