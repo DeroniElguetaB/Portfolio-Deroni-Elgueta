@@ -2,7 +2,6 @@ import React from "react";
 import "../styles/Works.css";
 import { IoOpenOutline } from "react-icons/io5";
 import { FiFolder, FiGithub } from "react-icons/fi";
-import { WorkData } from "../data/WorkData";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
@@ -33,7 +32,7 @@ const Works = () => {
 						whileInView={fade}>
 							<div>
 								<Link to="//booking-frontend-black.vercel.app/home" target='_blank' className='work-link-group'>
-									<div className='works-card1'>
+									<div className='works-card works-card1'>
 										<div className='works-container'>
 											<div className='top-work'>
 												<FiFolder className='work-folder' />
@@ -70,7 +69,7 @@ const Works = () => {
 							</div>
 							<div>
 								<Link to="//casualmendoza.com.ar/" target='_blank' className='work-link-group'>
-									<div className='works-card2'>
+									<div className='works-card works-card2'>
 										<div className='works-container'>
 											<div className='top-work'>
 												<FiFolder className='work-folder'/>
@@ -104,7 +103,7 @@ const Works = () => {
 							</div>
 							<div>
 								<Link to="//deronielguetab.github.io/Proyecto-Mangos3D/index.html" target='_blank' className='work-link-group'>
-									<div className='works-card3'>
+									<div className='works-card works-card3'>
 										<div className='works-container'>
 											<div className='top-work'>
 												<FiFolder className='work-folder' />
@@ -140,7 +139,7 @@ const Works = () => {
 							</div>
 							<div>
 								<Link to="//clinicadyc.vercel.app/sign-in" target='_blank' className='work-link-group'>
-									<div className='works-card4'>
+									<div className='works-card works-card4'>
 										<div className='works-container'>
 											<div className='top-work'>
 												<FiFolder className='work-folder' />
