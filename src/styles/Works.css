@@ -87,6 +87,17 @@
 	color: var(--nav-blue);
 }
 
+.works-card5:hover {
+	/* transform: translateY(-7px) !important; */
+	transition: 5s;
+	background-image: url("../images/copia5.png");
+	background-size: cover;
+	background-position: center;
+}
+.works-card5:hover .work-title {
+	color: var(--nav-blue);
+}
+
 .top-work {
 	display: flex;
 	flex-direction: row;

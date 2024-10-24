@@ -173,6 +173,43 @@ const Works = () => {
 									</div>
 								</Link>
 							</div>
+							<div>
+								<Link to="//fastdermis.cl" target='_blank' className='work-link-group'>
+									<div className='works-card works-card5'>
+										<div className='works-container'>
+											<div className='top-work'>
+												<FiFolder className='work-folder' />
+												<div className='right'>
+													<Link
+														className='work-git'
+														to="//https://github.com/DeroniElguetaB/Dermatologia-F-D"
+														target='_blank'>
+														<FiGithub />
+													</Link>
+													<Link
+														className='work-link'
+														to="//fastdermis.cl"
+														target='_blank'>
+														<IoOpenOutline />
+													</Link>
+												</div>
+											</div>
+											<div className='mid-work'>
+												<p className='work-title'>Fast & Dermis</p>
+												<p className='work-desc'>Software Dermatológico destinado a  consultas online recibiendo diagnósticos y tratamientos profesionales.</p>
+											</div>
+											<div className='bottom-work'>
+												<small>Node Js</small>
+												<small>Firebase</small>
+												<small>React Js</small>
+												<small>Mongo DB</small>
+												<small>Tailwind</small>
+												<small>Nodemailer</small>
+											</div>
+										</div>
+									</div>
+								</Link>
+							</div>
 						{/* {WorkData.map((w, index) => {
 							return (
 								<div key={index}>
