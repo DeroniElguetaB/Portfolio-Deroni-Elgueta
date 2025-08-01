@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
 /* Hero Section */
 .hero-section {
-	background-image: url("../images/image2copia.JPG");
+	background-image: url("../images/Banner\ DEB\ 2.png");
 	background-attachment: fixed;
-	background-position: center;
+	background-position: center 85%;
 	background-size: cover;
 	width: 100%;
 	color: var(--white);
@@ -16,6 +17,7 @@
 	text-align: center;
 	position: relative;
 }
+
 .hero-overlay {
 	position: absolute;
 	height: 100vh;
@@ -148,6 +150,7 @@
 }
 
 @media screen and (max-width: 768px) {
+
 	.menu-icon,
 	.to-top-icon {
 		font-size: 1rem;
